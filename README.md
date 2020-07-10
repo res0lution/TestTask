@@ -1,4 +1,4 @@
-# [Test task ⚡️](https://hotger-test-task.netlify.app/) 
+# [Test task ⚡️](https://laughing-babbage-5fa093.netlify.app/) 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Introduction 🔈
