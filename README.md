@@ -1,4 +1,4 @@
-# [Test task ⚡️](https://crwn-app-e-commerce.herokuapp.com/) 
+# [Test task ⚡️](https://hotger-test-task.netlify.app/) 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Introduction 🔈
@@ -68,7 +68,7 @@ $ npm start
 Using Yarn:
 ```bash
 # Install dependencies
-$ yarn
+$ yarn install
 
 # Start development server
 $ yarn start
@@ -82,16 +82,18 @@ Code technologies I got involved with while working on this project.
 
 1. [**React**](https://ru.reactjs.org/)
 1. [**Redux**](https://redux.js.org/)
-1. [**Redux-thunk**](https://redux-saga.js.org/)
-1. [**Bootstrap 4**](https://reacttraining.com/react-router/core/guides/quick-start)
+1. [**Redux-thunk**](https://github.com/reduxjs/redux-thunk)
+1. [**Bootstrap 4**](https://bootstrap-4.ru/)
 
-### Api 💳
+### Api
 
-[**Stripe**](https://dashboard.stripe.com/)
+[**Restcountries**](https://restcountries.eu/#api-endpoints-name)
 
 ### Deploy 📦
 
 [**Netlify**](https://dashboard.heroku.com/apps)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ee80b81-eda5-4874-a939-1ee164ea0fda/deploy-status)](https://app.netlify.com/sites/test-task-hotger/deploys)
 
 
 ## License 📄
