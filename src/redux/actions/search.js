@@ -4,7 +4,6 @@ import {
   SEARCH_START,
   SEARCH_FAILURE,
   SEARCH_SUCCESS,
-  RESET_RESULT,
   NOT_FOUND,
   SET_SEARCH_TEXT,
 } from '../constants/search';
@@ -28,10 +27,6 @@ export const successSearch = (data) => ({
   payload: data,
 });
 
-export const resetResult = () => ({
-  type: RESET_RESULT,
-});
-
 const failureSearch = () => ({
   type: SEARCH_FAILURE,
 });
@@ -46,9 +41,7 @@ const searchAPI = (text, type = 'name') => fetch(
 const searchAPIDebounced = AwesomeDebouncePromise(searchAPI, 500);
 
 export const requestCountries = (text) => (dispatch) => {
-  if (text.length === 0) {
-    dispatch(resetResult());
-  } else {
+  if (text.length !== 0) {
     dispatch(startSearch());
     searchAPIDebounced(text)
       .then((res) => res.json())

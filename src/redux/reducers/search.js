@@ -2,7 +2,6 @@ import {
   SEARCH_START,
   SEARCH_FAILURE,
   SEARCH_SUCCESS,
-  RESET_RESULT,
   NOT_FOUND,
   SET_SEARCH_TEXT,
 } from '../constants/search';
@@ -42,14 +41,6 @@ const searchReducer = (state = INITIAL_STATE, action) => {
         ...state,
         result: [],
         error: 'Something went wrong!',
-        loading: false,
-        message: null,
-      };
-    case RESET_RESULT:
-      return {
-        ...state,
-        result: [],
-        error: null,
         loading: false,
         message: null,
       };
