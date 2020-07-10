@@ -1,0 +1,6 @@
+export const SEARCH_START = 'SEARCH_START';
+export const SEARCH_SUCCESS = 'SEARCH_SUCCESS';
+export const SEARCH_FAILURE = 'SEARCH_FAILURE';
+export const RESET_RESULT = 'RESET_RESULT';
+export const NOT_FOUND = 'NOT_FOUND';
+export const SET_SEARCH_TEXT = 'SET_SEARCH_TEXT';
