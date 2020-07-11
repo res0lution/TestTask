@@ -7,10 +7,6 @@ import rootReducer from './reducers/rootReducer';
 
 const middlewares = [thunk];
 
-if (process.env.NODE_ENV === 'development') {
-  middlewares.push();
-}
-
 const composedEnhancer = composeWithDevTools(applyMiddleware(...middlewares));
 
 export const store = createStore(rootReducer, composedEnhancer);
